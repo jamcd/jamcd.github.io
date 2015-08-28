@@ -1,52 +1,56 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html> 
 <head>
 
-	<link rel="stylesheet" type="text/css" href="prettify.css">
-	<script src="prettify.js"></script>
+	<link rel="html5reset-1.6.1.css" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 
-	<style>
-		/* Fallback for non-HTML5 browsers */
-		section, article, aside, footer, header, nav, hgroup {
-			display:block;
-		}
-	</style>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="scripts/jm-scripts.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<link rel="stylesheet" href="css/monokai_sublime.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/3.5.2/css/animsition.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/3.5.2/js/jquery.animsition.min.js"></script>
+
 </head>
 
-<body>
+<body class="home">
 
-	<header>
+	<header id="masthead">
 
 		<nav>
-			<a href="/home">Home</a>
+			<div></div>
+			<span>Jamie McD's Coding Blog</span>
+			<ul>
+				<li><a href="./home.html" class="animsition-link"><i class="fa fa-home"></i>Home</a></li>
+				<li><a href="blog.html" class="animsition-link"><i class="fa fa-rss"></i>Blog</a></li>
+				<li><a href="books.html" class="animsition-link"><i class="fa fa-rss"></i>Books</a></li>
+				<li><a href="links.html" class="animsition-link"><i class="fa fa-rss"></i>Links</a></li>
+
+			</ul>
 		</nav>
-		<h1>Hello World</h1>
+
 	</header>
 
-	<main>
+	<main class="jm-wrapper animsition">
+		<header>
+			<h1 class="page-title">JavaScript String Testing</h1>
+		</header>
 
-		<article class="blog-post">
-			<header>
-				<a href="/string-testing">
-					<h1 class="blog-title">JavaScript String Testing</h1>
-				</a>
-			</header>
-			<section class="content">
-				<p>Content Here</p>
-			</section>
-		</article>
-
-		<article class="blog-post">
-			<header>
-				<a href="/string-testing">
-					<h1 class="blog-title">JavaScript String Testing</h1>
-				</a>
-			</header>
-			<section class="content">
-				<p>Content Here</p>
-			</section>
-		</article>
+		<section class="post-content">
+			<img src="js-logo.jpg" class="js-logo" width="200" height="200" />
+			<p><strong>JavaScript Progress</strong></p>
+			<p>Import Treehouse scores?</p>
+		</section>
 
 	</main>
 
@@ -55,6 +59,3 @@
 </body>
 
 </html>
-=======
-test
->>>>>>> origin/master
