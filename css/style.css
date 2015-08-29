@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Londrina Solid', cursive;
   text-transform: uppercase;
   color:#9aa59f;
+  font-weight: 400;
 }
 
 html, body {
@@ -267,7 +268,7 @@ h1.page-title {
 .portfolio-grid .screen-info,
 .coming-soon-info,
 .portfolio-link {
-  font-family: 'Source Code Pro', ;
+  font-family: 'Source Code Pro', 'Arial, Helvetica';
 }
 
 
