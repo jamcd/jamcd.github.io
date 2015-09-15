@@ -437,3 +437,23 @@ h1.page-title {
   }
 
 }
+
+@media only screen and (max-width: 360px) {
+
+  .logo-wrapper {
+    width: 100%;
+  }
+
+  .nav-wrapper nav li a {
+    font-size: 22px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .thumbs-up-man.responsive {
+    display: none;
+  }
+
+}
