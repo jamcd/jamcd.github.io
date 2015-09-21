@@ -99,6 +99,7 @@ a:hover {
 
 .logo-wrapper img {
   max-width:100%;
+  height:auto;
 }
 
 #masthead {
