@@ -64,7 +64,10 @@ a:hover {
 
 .post-content {
   font-size:18px;
-  margin-top: 60px;
+}
+
+.post-content header {
+  margin-bottom:60px;
 }
 
 .post-content code {
@@ -212,12 +215,17 @@ h1.page-title {
 }
 
 .portfolio-grid img {
-  max-width:100%;
-  transition:max-width ease 0.3s, margin ease 0.3s;
+  width:100%;
+  height:auto;
+  transition:width ease 0.3s, margin ease 0.3s;
+}
+.portfolio-grid .screen-image.border {
+  box-shadow: 0 1px 0 0px #D0CBCB;
 }
 
 .portfolio-grid .jm-col-4:hover img {
   max-width:110%;
+  width:110%;
   margin-left:-5%;
 }
 
