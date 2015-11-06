@@ -2,19 +2,14 @@
 <html> 
 <head>
 
-	<link rel="html5reset-1.6.1.css" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="scripts/jm-scripts.js"></script>
+	<script src="js/jm-scripts.js"></script>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
-	<link rel="stylesheet" href="css/monokai_sublime.css">
-
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700,900,300,200' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/3.5.2/css/animsition.min.css">
@@ -25,36 +20,52 @@
 
 <body class="home">
 
-	<header id="masthead">
+	<header id="masthead" class="cf">
 
-		<nav>
-			<div></div>
-			<span>Jamie McD's Coding Blog</span>
-			<ul>
-				<li><a href="./home.html" class="animsition-link"><i class="fa fa-home"></i>Home</a></li>
-				<li><a href="blog.html" class="animsition-link"><i class="fa fa-rss"></i>Blog</a></li>
-				<li><a href="books.html" class="animsition-link"><i class="fa fa-rss"></i>Books</a></li>
-				<li><a href="links.html" class="animsition-link"><i class="fa fa-rss"></i>Links</a></li>
+		<div class="container cf">
+			<div class="logo-wrapper">
+				<img src="img/jamie-mcdonald-logo.png" />
+			</div>
+			<img class="thumbs-up-man responsive" src="img/thumbs-up-man.jpg" height="157" width="116" />
 
-			</ul>
-		</nav>
+			<div class="nav-wrapper">
+				<img class="thumbs-up-man" src="img/thumbs-up-man.jpg" height="157" width="116" />
+				<nav>
+					<ul class="nav">
+						<li><a href="index" class="animsition-link"><i class="fa fa-home"></i>Home</a></li>
+						<li><a href="blog" class="animsition-link"><i class="fa fa-rss"></i>Blog</a></li>
+						<li><a href="portfolio" class="animsition-link"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="header-info">
+				<a class="website-url" href="http://jamcd.github.io">jamcd.github.io</a>
+				<a class="my-email" href="mailto:jamiemcd13@gmail.com" target="_blank">jamiemcd13@gmail.com</a>
+			</div>
+
+		</div>
 
 	</header>
 
 	<main class="jm-wrapper animsition">
-		<header>
-			<h1 class="page-title">JavaScript String Testing</h1>
-		</header>
+		<div class="container cf">
+			<header>
+				<h1 class="page-title">Home</h1>
+				<div class="page-caption">Coming Soon!</div>
+			</header>
 
-		<section class="post-content">
-			<img src="js-logo.jpg" class="js-logo" width="200" height="200" />
-			<p><strong>JavaScript Progress</strong></p>
-			<p>Import Treehouse scores?</p>
-		</section>
-
+			<section class="post-content">
+				<div class="portfolio-link">In the mean time, check out my <a href="portfolio.html">portfolio!</a></div>
+			</section>
+			
+		</div>
 	</main>
 
-	<footer>
+	<footer class="site-footer">
+		<div class="container cf">
+			<div class="coming-soon-info">This site was published in August 2015. More content will be coming soon, so please check back for updates!</div>
+		</div>
 	</footer>
 </body>
 
