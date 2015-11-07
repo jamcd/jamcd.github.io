@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Londrina Solid', cursive;
   text-transform: uppercase;
   color:#9aa59f;
+  font-weight: 400;
 }
 
 html, body {
@@ -63,7 +64,10 @@ a:hover {
 
 .post-content {
   font-size:18px;
-  margin-top: 60px;
+}
+
+.post-content header {
+  margin-bottom:60px;
 }
 
 .post-content code {
@@ -95,6 +99,7 @@ a:hover {
 
 .logo-wrapper img {
   max-width:100%;
+  height:auto;
 }
 
 #masthead {
@@ -211,12 +216,17 @@ h1.page-title {
 }
 
 .portfolio-grid img {
-  max-width:100%;
-  transition:max-width ease 0.3s, margin ease 0.3s;
+  width:100%;
+  height:auto;
+  transition:width ease 0.3s, margin ease 0.3s;
+}
+.portfolio-grid .screen-image.border {
+  box-shadow: 0 1px 0 0px #D0CBCB;
 }
 
 .portfolio-grid .jm-col-4:hover img {
   max-width:110%;
+  width:110%;
   margin-left:-5%;
 }
 
@@ -267,7 +277,7 @@ h1.page-title {
 .portfolio-grid .screen-info,
 .coming-soon-info,
 .portfolio-link {
-  font-family: 'Source Code Pro', ;
+  font-family: 'Source Code Pro', 'Arial, Helvetica';
 }
 
 
@@ -433,6 +443,26 @@ h1.page-title {
 
   .nav-wrapper .nav i {
     font-size: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+  .logo-wrapper {
+    width: 100%;
+  }
+
+  .nav-wrapper nav li a {
+    font-size: 22px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .thumbs-up-man.responsive {
+    display: none;
   }
 
 }
