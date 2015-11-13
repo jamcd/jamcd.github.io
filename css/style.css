@@ -283,6 +283,151 @@ h1.page-title {
 
 
 
+
+/* =============== ADDITIONS FOR PLAYGROUND PAGE ============== */
+
+
+.acc-content { display:none; }
+	.accordion-holder,
+	.alt-accordion-holder {
+		font-family: 'Source Code Pro', 'Arial, Helvetica';
+		color: #9faba4;
+		padding-bottom: 40px;
+	}
+	.acc-title,
+	.accordion-title,
+	.tab-list a,
+	.tab-panel {
+		background: #EAEDEB;
+		padding: 20px;
+		overflow: hidden;
+		cursor: pointer;
+		position: relative;
+		border-bottom: 10px solid white;
+		display: block;
+	}
+	.acc-title h2,
+	.accordion-title h3,
+	.tab-list h2 {
+		float: left;
+		margin: 0;
+		color: #50AF7B;
+	}
+	.tab-list h2 {
+		margin-right: 10px;
+	}
+	.acc-title:after,
+	.accordion-title:after {
+		content: '+';
+		font-family: 'Londrina Solid', cursive;
+		font-size: 40px;
+		line-height: 0.6;
+		display: block;
+		color: #50AF7B;
+		position: absolute;
+		right: 20px;
+	}
+	.acc-title.opened:after,
+	.accordion-title.active:after {
+		content: '-';
+	}
+	.acc-title h2,
+	.accordion-title h3 {
+		padding-right: 30px;
+	}
+	.accordion-content,
+	.acc-content {
+		padding: 0 20px;
+	}
+	.accordion-content p,
+	.acc-content p {
+		margin: 10px 0 30px;
+		font-size: 17px;
+	}
+	.jm-row {
+		clear: both;
+    margin-bottom: 20px;
+	}
+
+	[class*="jm-col-"] {
+		padding: 0 1.5%;
+		box-sizing: border-box;
+		float: left;
+	}
+	.jm-col-4 { width: 33.33%; }
+	.jm-col-8 { width: 66.66%; }
+	.jm-col-12 { width: 100%; }
+
+	.tab-panel {
+		display: none;
+		color: white;
+		text-shadow: 0px 0px 35px rgba(0,0,0,0.2);
+	}
+	.tab-panel.active { display: block;	}
+
+	#tab-1 { background: #ED7777; }
+	#tab-2 { background: #79D3A3; }
+	#tab-3 { background: #77B5ED; }
+
+
+	.parallax-container {
+		background: url('../img/vegas-bg.jpg');
+		height: 320px;
+		overflow: hidden;
+	}
+
+	.parallax-container h2 {
+		text-align: center;
+		top: 50px;
+		margin: 0;
+		position: relative;
+		color: white;
+		font-size: 85px;
+	}
+
+	.jm-container-full {
+		margin-left: -70px;
+		padding-left: 70px;
+		width: 100%;
+		background: black;
+		padding-right: 70px;
+    margin-bottom: 50px;
+	}
+
+	@media only screen and (max-width: 1050px) {
+		.acc-title,
+		.accordion-title {
+			padding: 15px;
+		}
+		.acc-title h2,
+		.accordion-title h3 {
+			font-size: 20px;
+		}
+		.acc-title:after,
+		.accordion-title:after {
+			right: 15px;
+		}
+	}
+
+	@media only screen and (max-width: 700px) {
+		[class*="jm-col"] {
+			width: 100%;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* =============== MEDIA QUERIES ============== */
 
 
